@@ -1,0 +1,48 @@
+{
+  "name":        "dreamfactory/df-rackspace",
+  "description": "Rackspace package containing Rackspace/OpenStack components for the DreamFactory(tm) core.",
+  "keywords":    [
+    "dreamfactory",
+    "dsp",
+    "rest",
+    "rackspace",
+    "openstack",
+    "storage blob"
+  ],
+  "homepage":    "https://www.dreamfactory.com/",
+  "license":     "Apache-2.0",
+  "authors":     [
+    {
+      "name":  "Arif Islam",
+      "email": "arifislam@dreamfactory.com"
+    },
+    {
+      "name":  "Jerry Ablan",
+      "email": "jerryablan@dreamfactory.com"
+    },
+    {
+      "name":  "Lee Hicks",
+      "email": "leehicks@dreamfactory.com"
+    }
+  ],
+  "support":     {
+    "email":  "support@dreamfactory.com",
+    "source": "https://github.com/dreamfactorysoftware/df-rackspace",
+    "issues": "https://github.com/dreamfactorysoftware/df-rackspace/issues",
+    "wiki":   "https://wiki.dreamfactory.com"
+  },
+  "require":     {
+    "dreamfactory/df-core":    "~0.1.0",
+    "rackspace/php-opencloud": "~1.5.0@stable"
+  },
+  "autoload":    {
+    "psr-4": {
+      "DreamFactory\\Core\\Rackspace\\": "src/"
+    }
+  },
+  "extra":       {
+    "branch-alias": {
+      "dev-develop": "0.1.x-dev"
+    }
+  }
+}

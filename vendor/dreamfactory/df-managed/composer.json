@@ -1,0 +1,48 @@
+{
+  "name":        "dreamfactory/df-managed",
+  "description": "DreamFactory(tm) Managed Service Library",
+  "homepage":    "https://www.dreamfactory.com/",
+  "keywords":    [
+    "dreamfactory",
+    "dsp",
+    "enterprise",
+    "storage"
+  ],
+  "license":     [
+    "Apache-2.0"
+  ],
+  "authors":     [
+    {
+      "name":  "Jerry Ablan",
+      "email": "jerryablan@dreamfactory.com"
+    },
+    {
+      "name":  "David L. Weiner",
+      "email": "davidweiner@dreamfactory.com"
+    },
+    {
+      "name":  "Arif Islam",
+      "email": "arifislam@dreamfactory.com"
+    }
+  ],
+  "require":     {
+    "dreamfactory/php-utils": "1.1.*"
+  },
+  "require-dev": {
+    "laravel/laravel": "5.1.*",
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload":    {
+    "psr-4": {
+      "DreamFactory\\Managed\\": "src/"
+    }
+  },
+  "config":      {
+    "preferred-install": "dist"
+  },
+  "extra":       {
+    "branch-alias": {
+      "dev-develop": "1.0.x-dev"
+    }
+  }
+}

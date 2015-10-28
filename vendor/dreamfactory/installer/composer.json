@@ -1,0 +1,33 @@
+{
+    "name": "dreamfactory/installer",
+    "type": "composer-installer",
+    "homepage": "https://www.dreamfactory.com/",
+    "config": {
+        "discard-changes": true
+    },
+    "keywords": [
+        "rest",
+        "framework",
+        "cloud-computing",
+        "remote web services",
+        "dsp-core",
+        "dsp",
+        "service bus",
+        "esb"
+    ],
+    "license": ["Apache-2.0"],
+    "description": "DreamFactory Services Platform(tm) Library Installer",
+    "autoload": {
+        "psr-4": { "DreamFactory\\Tools\\Composer\\Installer\\": "src/" }
+    },
+    "extra": {
+        "class": "DreamFactory\\Tools\\Composer\\Installer\\Installer",
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev",
+        "phpunit/phpunit": "@stable"
+    }
+}
